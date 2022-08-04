@@ -8,7 +8,6 @@ export const SET_ADMIN = "SET_ADMIN"
 export const GET_SUBJECTS = "GET_SUBJECTS"
 
 
-
 //FACULTY
 export const SET_FACULTY = "SET_FACULTY"
 export const FACULTY_UPDATE_PASSWORD = "FACULTY_UPDATE_PASSWORD"

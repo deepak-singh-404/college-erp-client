@@ -10,8 +10,8 @@ const setFaculty = (data) => {
     }
 }
 
-// const url = "http://localhost:5000"
-const url = "https://dev-college-erp.herokuapp.com"
+const url = "http://localhost:5000"
+//const url = "https://dev-college-erp.herokuapp.com"
 
 const fetchStudentsHelper = (data) => {
     return {
