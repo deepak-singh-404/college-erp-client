@@ -2,6 +2,7 @@ import axios from 'axios';
 import setAuthToken from '../utils/setAuthToken'
 import jwt_decode from 'jwt-decode';
 import { SET_FACULTY, SET_ERRORS, SET_FLAG, SET_ERRORS_HELPER } from '../actionTypes'
+import { url } from '../../config/index'
 
 const setFaculty = (data) => {
     return {
@@ -10,8 +11,7 @@ const setFaculty = (data) => {
     }
 }
 
-const url = "http://localhost:5000"
-//const url = "https://dev-college-erp.herokuapp.com"
+
 
 const fetchStudentsHelper = (data) => {
     return {

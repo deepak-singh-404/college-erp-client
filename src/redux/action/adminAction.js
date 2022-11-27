@@ -2,12 +2,12 @@ import axios from 'axios';
 import setAuthToken from '../utils/setAuthToken'
 import jwt_decode from 'jwt-decode';
 import {
-    SET_ADMIN, SET_ERRORS, 
+    SET_ADMIN, SET_ERRORS,
     GET_SUBJECTS
 } from '../actionTypes'
 
-const url = "http://localhost:5000"
-//const url = "https://dev-college-erp.herokuapp.com"
+
+import { url } from '../../config/index'
 
 const setAdmin = (data) => {
     return {
@@ -55,7 +55,7 @@ const adminGetAllFacultyHelper = (data) => {
     return {
         type: "GET_ALL_FACULTY",
         payload: data
-    }   
+    }
 }
 
 const adminGetAllStudentHelper = (data) => {
